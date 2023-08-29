@@ -1,5 +1,6 @@
 <template>
     <div class="hero">
+        <NavBar />
         <div class="container-xxl">
             <div class="hero-text">
                 <div class="primary-text">
@@ -11,9 +12,14 @@
                     Provide Excellent Customer Service. Answer More <br />
                     Tickets All-In-One Primarily Software.
                 </div>
-                <button class="primary-btn btn d-none d-lg-block">
-                    Get Started
-                </button>
+                <div class="d-flex">
+                    <a href="#" class="primary-btn btn d-none d-lg-block"
+                        >Get Started</a
+                    >
+                    <a href="#" class="secondary-btn btn d-none d-lg-block"
+                        >How It Work</a
+                    >
+                </div>
             </div>
         </div>
     </div>
@@ -24,15 +30,13 @@
 <style lang="scss" scoped>
     .hero {
         background-image: url("/images/Background.svg");
-        position: relative;
+        background-size: contain;
         background-repeat: no-repeat;
-        background-size: cover;
-        margin-top: -170px;
-        z-index: -1;
+        background-position: top right;
 
         .hero-text {
-            padding-top: 250px;
-            padding-bottom: 180px;
+            padding: 100px 0;
+
             .primary-text {
                 font-family: JostSemiBold;
                 font-size: 60px;
@@ -50,15 +54,36 @@
             }
 
             .primary-btn {
-            border-radius: 5px;
-            background: #303030;
-            color: #fff;
-            text-align: center;
-            font-family: JostSemiBold;
-            font-size: 20px;
-            line-height: normal;
-            padding: 12px 38px;
-        }
+                border-radius: 5px;
+                background: #303030;
+                color: #fff;
+                text-align: center;
+                font-family: JostSemiBold;
+                font-size: 20px;
+                line-height: normal;
+                padding: 12px 38px;
+            }
+
+            .secondary-btn {
+                border-radius: 5px;
+                background: #ffffff;
+                color: #303030;
+                text-align: center;
+                font-family: JostSemiBold;
+                font-size: 20px;
+                line-height: normal;
+                padding: 12px 38px;
+            }
+
+            @media screen and (max-width: 768px) {
+                padding: 60px 0;
+                .primary-text {
+                        font-size: 30px;
+                    }
+                .secondary-text {
+                    font-size: 14px;
+                }
+            }
         }
     }
 </style>

@@ -53,7 +53,7 @@
                             </th>
                         </tr>
                     </thead>
-                    <tbody class="collapse.show" id="collapseExample">
+                    <tbody class="collapse" id="collapseExample">
                                 <tr>
                                     <td>
                                         <div
