@@ -3,16 +3,16 @@
         <NavBar />
         <div class="container-xxl">
             <div class="hero-text">
-                <div class="primary-text">
+                <div class="primary-text text-center text-md-start">
                     The CRM Platform <br />
                     Your Whole Business <br />
                     Will Love
                 </div>
-                <div class="secondary-text">
+                <div class="secondary-text text-center text-md-start">
                     Provide Excellent Customer Service. Answer More <br />
                     Tickets All-In-One Primarily Software.
                 </div>
-                <div class="d-flex">
+                <div class="d-flex justify-content-center justify-content-md-start">
                     <a href="#" class="primary-btn btn d-lg-block"
                         >Get Started</a
                     >
@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="hero-features d-flex flex-column align-items-center">
-                <div class="text-semibold">Explore Premium Features</div>
+                <div class="text-semibold text-center">Explore Premium Features</div>
                 <div
                     class="text-opensans text-center mb-5"
                     style="max-width: 70%"
@@ -38,8 +38,8 @@
                         <div>
                             <img src="/images/FeatureIcon.svg" alt="" />
                         </div>
-                        <div class="text-medium">Powerful Settings</div>
-                        <div class="text-opensans">
+                        <div class="text-medium text-center text-md-start">Powerful Settings</div>
+                        <div class="text-opensans text-center text-md-start">
                             Provide Excellent Customer Service. Answer More
                             Tickets.
                         </div>
@@ -50,8 +50,8 @@
                         <div>
                             <img src="/images/FeatureIcon2.svg" alt="" />
                         </div>
-                        <div class="text-medium">User Friendly</div>
-                        <div class="text-opensans">
+                        <div class="text-medium text-center text-md-start">User Friendly</div>
+                        <div class="text-opensans text-center text-md-start">
                             Use Timeline To Plan Projects Right How The Pieces
                             Fit Together.
                         </div>
@@ -62,8 +62,8 @@
                         <div>
                             <img src="/images/FeatureIcon3.svg" alt="" />
                         </div>
-                        <div class="text-medium">Integrated Platform</div>
-                        <div class="text-opensans">
+                        <div class="text-medium text-center text-md-start">Integrated Platform</div>
+                        <div class="text-opensans text-center text-md-start">
                             Vivamus Massa Eleifend Etiam Neque Odio Feugiat
                             Dolor Est.
                         </div>
