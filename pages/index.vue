@@ -1,14 +1,17 @@
 <template>
     <div>
         <NavBar />
-        asdasd
+        <Hero />
+        <Footer />
     </div>
 </template>
 <script>
 export default {
-    
+
 }
 </script>
-<style lang="">
-    
+<style lang="scss">
+    body {
+        overflow-y: auto !important;
+    }
 </style>
