@@ -1,7 +1,7 @@
 <template lang="">
     <div class="footer">
         <div class="container-xxl d-flex flex-column">
-            <div class="d-flex justify-content-between">
+            <div class="d-flex flex-md-row flex-column align-items-center justify-content-between">
                 <div class="footer-brand">
                     <a class="m-0 p-0" href="#">
                         <img src="/images/logo.svg" alt="" />
@@ -27,7 +27,7 @@
                 </div>
             </div>
 
-            <div class="table-responsive w-100">
+            <!-- <div class="table-responsive w-100">
                 <table class="table">
                     <thead class="align-middle">
                         <tr>
@@ -117,7 +117,7 @@
                                 </tr>
                     </tbody>
                 </table>
-            </div>
+            </div> -->
 
             <div class="font-family-jost text-xl text-white text-center">
                 Copyright © Primarly | Designed by VictorFlow Templates

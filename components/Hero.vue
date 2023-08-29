@@ -34,6 +34,10 @@
         background-repeat: no-repeat;
         background-position: top right;
 
+        @media screen and (max-width: 768px) {
+                background-image: none;
+            }
+
         .hero-text {
             padding: 100px 0;
 
@@ -76,9 +80,9 @@
             }
 
             @media screen and (max-width: 768px) {
-                padding: 60px 0;
+                padding: 30px 0;
                 .primary-text {
-                        font-size: 30px;
+                        font-size: 35px;
                     }
                 .secondary-text {
                     font-size: 14px;
