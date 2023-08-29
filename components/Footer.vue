@@ -19,7 +19,7 @@
                         <img src="/images/Twiter.svg" alt="" />
                     </a>
                     <a class="m-0 p-0 d-flex" href="#">
-                        <img src="/images/Linked in.svg" alt="" />
+                        <img src="/images/LinkedIn.svg" alt="" />
                     </a>
                     <a class="m-0 p-0 d-flex" href="#">
                         <img src="/images/Youtube.svg" alt="" />
