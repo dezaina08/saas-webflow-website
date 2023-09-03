@@ -9,7 +9,7 @@
                 Business, Brought To You By A Company With The Long Term
                 Vision To Transform The Way You Work.
             </div>
-            <div class="row d-flex flex-md-row flex-column p-4 gap-4">
+            <div class="row d-flex flex-md-row flex-column p-4 p-md-0 gap-4">
                 <div class="col feature d-flex flex-column align-items-center align-items-md-start">
                     <div>
                         <img src="/images/FeatureIcon.svg" alt="" />
@@ -76,30 +76,12 @@ export default {
     img {
         size: 55px;
         padding-bottom: 20px;
-    }
 
-    @media screen and (max-width: 768px) {
-        img {
+        @media screen and (max-width: 576px) {
             padding-bottom: 5px;
         }
     }
 
-    @media screen and (max-width: 768px) {
-        .text-semibold {
-            font-size: 35px;
-            margin-bottom: 0px;
-        }
-
-        .text-medium {
-            font-size: 25px;
-            margin-bottom: 0px;
-        }
-
-        .text-opensans {
-            font-size: 14px;
-            margin-bottom: 0px;
-        }
-    }
 
     .text-semibold {
         font-family: JostSemiBold;
@@ -107,6 +89,11 @@ export default {
         line-height: normal;
         margin-bottom: 24px;
         color: #303030;
+
+        @media screen and (max-width: 576px) {
+            font-size: 35px;
+            margin-bottom: 0px;
+        }
     }
 
     .text-medium {
@@ -115,6 +102,11 @@ export default {
         line-height: normal;
         margin-bottom: 24px;
         color: #303030;
+
+        @media screen and (max-width: 576px) {
+            font-size: 25px;
+            margin-bottom: 0px;
+        }
     }
 
     .text-opensans {
@@ -122,6 +114,10 @@ export default {
         font-size: 20px;
         line-height: normal;
         color: #303030;
+
+        @media screen and (max-width: 576px) {
+            font-size: 14px;
+            margin-bottom: 0px;
+        }
     }
-}
-</style>
+}</style>

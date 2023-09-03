@@ -3,6 +3,7 @@
         
         <Hero />
         <Features />
+        <Lead />
         <Footer />
         <nuxt-link to="/users">Users</nuxt-link>
     </div>
