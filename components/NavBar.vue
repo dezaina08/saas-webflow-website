@@ -8,21 +8,19 @@
             <div class="d-flex align-items-center">
                 <ul class="navbar-nav mb-2 mb-lg-0 d-none d-lg-flex li-gap">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#"
-                            >Home</a
-                        >
+                        <nuxt-link to="#" class="nav-link">Home</nuxt-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <nuxt-link to="#" class="nav-link">About Us</nuxt-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <nuxt-link to="#" class="nav-link">Services</nuxt-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Project</a>
+                        <nuxt-link to="#" class="nav-link">Project</nuxt-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <nuxt-link to="#" class="nav-link">Contact Us</nuxt-link>
                     </li>
                 </ul>
                 <a href="#" class="login-btn btn d-none d-lg-block"> Login </a>
