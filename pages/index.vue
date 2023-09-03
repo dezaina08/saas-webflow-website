@@ -2,7 +2,9 @@
     <div>
         
         <Hero />
+        <Features />
         <Footer />
+        <nuxt-link to="/users">Users</nuxt-link>
     </div>
 </template>
 <script>
