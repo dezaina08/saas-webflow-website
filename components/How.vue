@@ -2,13 +2,16 @@
     <div class="how mb-5">
         <div class="container-xxl">
             <div class="row d-flex flex-md-row p-4 p-md-0 flex-column">
+                <div class="col d-flex">
+
+                </div>
                 <div class="col d-flex flex-column">
                     <div class="font-family-jostsemibold primary-color text-3xl text-md-4xl text-center text-md-start mb-2">
                         How It Works
                     </div>
                     <div
                         class="font-family-opensansregular secondary-color text-base text-md-xl text-center text-md-start mb-3">
-                        Unique and powerful suite of software to run your business, brought to you by  vision to you work.
+                        Unique and powerful suite of software to run your business, brought to you by vision to you work.
                     </div>
                     <div class="p-2 mb-3">
                         <div
@@ -17,8 +20,8 @@
                         </div>
                         <div
                             class="font-family-opensansregular secondary-color text-base text-md-xl text-center text-md-start ms-0 ms-md-5">
-                            CentraHub CRM automatically logs in any reactions 
-made by your leads, prospects
+                            CentraHub CRM automatically logs in any reactions
+                            made by your leads, prospects
                         </div>
                     </div>
                     <div class="p-2 mb-3">
@@ -42,10 +45,6 @@ made by your leads, prospects
                         </div>
                     </div>
                 </div>
-                <div class="col d-flex">
-
-                </div>
-
             </div>
         </div>
     </div>
