@@ -4,6 +4,7 @@
         <Hero />
         <Features />
         <Lead />
+        <Project />
         <Footer />
         <nuxt-link to="/users">Users</nuxt-link>
     </div>
