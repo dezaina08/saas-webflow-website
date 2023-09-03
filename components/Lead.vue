@@ -1,7 +1,7 @@
 <template>
     <div class="lead mb-5">
         <div class="container-xxl">
-            <div class="row d-flex flex-md-row p-4 p-md-0 flex-column gap-4">
+            <div class="row d-flex flex-md-row pt-1 pt-md-5 pb-1 pb-md-5 px-2 flex-column gap-4">
                 <div class="col d-flex justify-content-center">
                     <img src="/images/Lead.svg" class="img-fluid" alt="" />
                 </div>
@@ -47,9 +47,19 @@ export default {
 </script>
 <style lang="scss">
 @import "~/assets/scss/mixins/breakpoints";
+
 .lead {
+    background-image: url("/images/LeadBg.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+
+    @media screen and (max-width: 768px) {
+        background-image: none;
+    }
+
     img {
-        
+
         min-width: 1%;
     }
 }

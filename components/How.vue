@@ -1,7 +1,7 @@
 <template>
     <div class="how mb-5">
         <div class="container-xxl">
-            <div class="row d-flex flex-md-row p-4 p-md-0 flex-column gap-5">
+            <div class="row d-flex flex-md-row pt-1 pt-md-5 pb-1 pb-md-5 px-2 flex-column gap-5">
                 <div class="col background rounded-4 d-flex flex-column p-5">
                     <div
                         class="font-family-jostsemibold primary-color text-3xl text-md-4xl text-md-3xl text-center text-md-start mb-3">

@@ -59,7 +59,11 @@ export default {
 @import "~/assets/scss/mixins/breakpoints";
 
 .features {
-    padding: 100px 0;
+    padding: 100px 20px;
+
+    @media screen and (max-width: 576px) {
+            padding: 30px;
+        }
 
     .feature {
         background: #f4f4f4;

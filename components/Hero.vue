@@ -42,7 +42,7 @@
         }
 
         .hero-text {
-            padding: 100px 0;
+            padding-top: 100px;
 
             .primary-text {
                 font-family: JostSemiBold;
@@ -83,7 +83,7 @@
             }
 
             @media screen and (max-width: 768px) {
-                padding: 30px 0;
+                padding-top: 30px 0;
                 .primary-text {
                     font-size: 35px;
                 }

@@ -1,7 +1,7 @@
 <template>
     <div class="project mb-5">
         <div class="container-xxl">
-            <div class="row d-flex flex-md-row p-4 p-md-0 flex-column gap-4">
+            <div class="row d-flex flex-md-row pt-1 pt-md-5 pb-1 pb-md-5 px-2 flex-column gap-4">
                 <div class="col d-flex flex-column justify-content-center">
                     <div class="font-family-jostsemibold primary-color text-3xl text-md-4xl text-center text-md-start mb-2">
                         Ways A Project Management Tool Can Help Your Team
@@ -47,6 +47,15 @@ export default {
 
 }
 </script>
-<style lang="">
-    
+<style lang="scss" scoped>
+.project {
+    background-image: url("/images/ProjectBg.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
+    @media screen and (max-width: 768px) {
+        background-image: none;
+    }
+}
 </style>
