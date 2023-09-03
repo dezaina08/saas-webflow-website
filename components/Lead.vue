@@ -45,4 +45,6 @@ export default {
 
 }
 </script>
-<style lang="scss">@import "~/assets/scss/mixins/breakpoints";</style>
+<style lang="scss">
+@import "~/assets/scss/mixins/breakpoints";
+</style>

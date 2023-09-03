@@ -1,9 +1,25 @@
 <template>
     <div class="how mb-5">
         <div class="container-xxl">
-            <div class="row d-flex flex-md-row p-4 p-md-0 flex-column">
-                <div class="col d-flex">
-
+            <div class="row d-flex flex-md-row p-4 p-md-0 flex-column gap-5">
+                <div class="col background rounded-4 d-flex flex-column p-5">
+                    <div
+                        class="font-family-jostsemibold primary-color text-3xl text-md-4xl text-md-3xl text-center text-md-start mb-3">
+                        The Perfect CRM Software:
+                        <br> Boost Your Field Sales Team's Efficiency
+                    </div>
+                    <div
+                        class="font-family-opensansregular tertiary-color text-xl text-md-2xl text-center text-md-start mb-3">
+                        Depending on the Sales Approaches Standardize a Marketing Process
+                    </div>
+                    <div
+                        class="font-family-opensansregular secondary-color text-base text-md-xl text-center text-md-start mb-3">
+                        Unique and powerful suite of software to run your entire business, brought to you by a company.
+                    </div>
+                    <div class="d-flex gap-3 w-100">
+                        <img src="/images/PlayStore.svg" class="btn img-fluid" alt="" style="background-color: black;" />
+                        <img src="/images/AppleStore.svg" class="btn img-fluid" alt="" style="background-color: black;" />
+                    </div>
                 </div>
                 <div class="col d-flex flex-column">
                     <div class="font-family-jostsemibold primary-color text-3xl text-md-4xl text-center text-md-start mb-2">
@@ -54,6 +70,16 @@ export default {
 
 }
 </script>
-<style lang="">
-    
+<style lang="scss" scoped>
+@import "~/assets/scss/mixins/breakpoints";
+
+.how {
+    .background {
+        background-color: #6CF7FF;
+    }
+
+    .btn {
+        min-width: 20%;
+    }
+}
 </style>
